@@ -1,0 +1,115 @@
+@import "reset.css";
+@import "bg-colors.css";
+@import "fonts.css";
+
+* {
+  font-family: "Open Sans", sans-serif;
+}
+
+.hidden {
+  display: none;
+}
+
+html {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+body {
+  height: 100vh;
+  width: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.left-side {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 500px;
+  height: 600px;
+  /* background-color: darkgray; */
+}
+
+.right-side {
+  width: 300px;
+  height: 600px;
+  /* background-color: blueviolet; */
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+
+.top-bar {
+  /* top-bar includes clock, greeting, weather and quotes */
+  width: 500px;
+  height: 300px;
+  /* background-color: aquamarine; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.login-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 500px;
+  height: 300px;
+  /* background-color: brown; */
+}
+
+#clock {
+  display: block;
+  font-size: 70px;
+}
+#greeting {
+  display: block;
+  font-size: 40px;
+  font-weight: 800;
+}
+
+#weather > span {
+  font-size: 20px;
+  font-weight: 800;
+}
+
+ul {
+  width: 250px;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+li > button {
+  font-size: 30px;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  background-color: transparent;
+}
+
+li > span {
+  font-weight: 600;
+}
+
+input {
+  font-size: 20px;
+}
+
+#login-form > button {
+  font-size: 20px;
+}
+
+#quote > span {
+  font-size: 15px;
+  font-weight: 600;
+}
